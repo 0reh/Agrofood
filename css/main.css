@@ -40,6 +40,18 @@
     font-display: block;
 }
 
+@font-face {
+    font-family: "TimesNewRomanItalique";
+    src: url(../fonts/Times-New-Roman-Italique.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "TimesNewRomanBold";
+    src: url(../fonts/Times-New-Roman-Bold.TTF);
+    font-display: swap;
+}
+
 body {
     margin: 0px;
 }
@@ -704,4 +716,115 @@ h1 {
     grid-area: agro12;
     background-image: url(../images/content/agro-grid-12.png);
         background-repeat: no-repeat;
+}
+
+.agrofoodsays {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/content/peoplesays1.png);
+    background-repeat: no-repeat;
+    height: 714px;
+}
+
+.agrofoodsays p {
+    font-family: "RalewayBlack";
+    font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+}
+
+.agrofoodsays span {
+    font-family: "RalewayThin";
+    font-size: 40px;
+    line-height: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.agrofoodsays .p2 {
+    font-size: 18px;
+    font-family: "OpenSansLight";
+    text-transform: none;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 65px;
+    text-align: center;
+    width: 35%;
+}
+
+.agro-slider {
+    display: flex;
+    justify-content: center;
+    width: 69%;
+}
+
+.agro-slider div {
+    display: flex;
+}
+
+.agro-slider span {
+    display: inline-block;
+    font-size: 100px;
+    font-family: "TimesNewRomanBold";
+    color:#fcdb5a;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 22px;
+}
+
+.agro-slider .special-SEO {
+    margin-right: 0px;
+    position: absolute;
+    left: -74px;    
+}
+
+
+.agro-slider p {
+    font-family: "TimesNewRomanItalique";
+    font-size: 25px;
+    text-transform: none;
+    margin: 0;
+    position: relative;
+}
+
+.slick-list.draggable .Terens_SEO {
+    display: flex;
+    margin-top: 38px;
+}
+
+.agro-slider .Terens_SEO_bio {
+    font-family: "RalewayBold";
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    vertical-align: top;
+    margin-left: 22px;
+}
+
+.agro-slider .Terens_SEO_pos {
+    font-family: "RalewayRegular";
+    font-size: 18px;
+    color: #fff;
+    text-transform: none;
+}
+
+.slick-dots li button:before {
+    content: url(../images/content/dot.png);
+}
+
+.slick-dots li.slick-active button:before {
+    content: url(../images/content/dot_active.png);
+}
+
+.agro-slider-div {
+    padding: 40px 80px 40px 120px;
+    position: relative;
 }
