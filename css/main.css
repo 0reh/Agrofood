@@ -401,6 +401,7 @@ h1 {
     display: flex;
     text-align: center;
     flex-direction: column;
+    color: #b3b3b3;
 }
 
 .agrofood-p p {
@@ -827,4 +828,86 @@ h1 {
 .agro-slider-div {
     padding: 40px 80px 40px 120px;
     position: relative;
+}
+
+.container3 .agrofood {
+    margin-top: 140px;
+}
+
+.agrofood-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.agrofood-blog-column1 {
+    background-image: url(../images/content/blog-post-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.agrofood-blog-prev1,
+.agrofood-blog-prev2,
+.agrofood-blog-prev3 {
+    background-color: rgb(252, 219, 90);
+    width: 61px;
+    height: 65px;
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.agrofood-blog-column-p1 {
+    font-family: "GilroyExtraBold";
+    font-size: 25px;
+    color: #333;
+    margin: 0px;
+}
+
+.agrofood-blog-column-p2 {
+    color: #9a8841;
+    font-family: "RalewayBold";
+    font-size: 12px;
+    margin: 0px;
+}
+
+.agrofood-blog-column-p3 {
+    color: #ddc051;
+    font-size: 12px;
+    font-family: "OpenSans";
+    text-transform: uppercase;
+    margin: 258px 0px 0px 30px;
+    line-height: 10px;
+}
+
+.agrofood-blog-column-p4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "RalewayBold";
+    text-transform: none;
+    margin: 17px 0px 25px 30px;
+}
+
+.agrofood-blog-column2 {
+    background-image: url(../images/content/blog-post-2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.agrofood-blog-column3 {
+    background-image: url(../images/content/blog-post-3.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 370px;
 }
