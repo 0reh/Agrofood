@@ -911,3 +911,29 @@ h1 {
     justify-content: space-between;
     width: 370px;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-one {
+    height: 164px;
+}
+
+.logo-two {
+    height: 123px;
+}
+
+.logo-three {
+    height: 83px;
+}
+
+.logo-four {
+    height: 128px;
+}
+
+.logo-five {
+    height: 120px;
+}
