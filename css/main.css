@@ -916,6 +916,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 104px;
 }
 
 .logo-one {
@@ -936,4 +937,103 @@ h1 {
 
 .logo-five {
     height: 120px;
+}
+
+.footer-container {
+    background-image: url(../images/footer/footer-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    height: 130px;
+}
+
+.footer-container .container .logo {
+    padding-top: 77px;
+    height: 176px;
+    max-width: 670px;
+    display: flex;
+}
+
+.footer-email {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: "RalewayBold";
+    color: rgb(253, 229, 87);
+    text-transform: uppercase;
+    line-height: 10px;
+    text-align: left;
+}
+
+.footer-email-contact {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    padding-bottom: 59px;
+}
+
+.container hr {
+    width: 670px;
+    height: 1px;
+    margin: 0;
+    height: 1px;
+    border: none;
+    background-color: #464e5e;
+}
+
+.btn2.actual {
+    border-bottom: 1px solid #fcdb5a;
+}
+
+#myBtnContainer2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    margin-top: 3px;
+    padding-bottom: 74px;
+}
+
+.logo ul {
+    margin-left: 0px;
+}
+
+.btn2.actual a {
+    color: #fcdb5a;
+}
+
+.logo ul li {
+    margin-left: 0px;
+    margin-top: 12px;
+}
+
+.logo ul li:first-child {
+    margin-top: 0px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 83px;
+    margin-top: 3px;
+}
+
+.logo .footer-menu ul li:first-child {
+    margin-top: 0px;
+}
+
+.footer-contacts {
+    display: flex;
+    margin-top: 74px;
+}
+
+.footer-email-contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-contacts-column2 {
+    margin-left: 76px;
 }
