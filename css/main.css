@@ -1125,9 +1125,9 @@ h1 {
 }
 
 .yandexmap {
-    margin-left: 284px;
     margin-top: -77px;
-    position: relative;
+    position: absolute;
+    right: 151px;
 }
 
 .yandexmap img {
