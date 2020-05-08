@@ -951,11 +951,6 @@ h1 {
     background-size: cover;
 }
 
-.footer-container .container {
-    position: relative;
-}
-
-
 .logo img {
     height: 130px;
 }
@@ -1110,13 +1105,76 @@ h1 {
     box-shadow: 0 0 5px #fcdb5a;
     border-radius: 12px;
     color: #fcdb5a;
-  }
+}
+
+.footer-contacts-column1 a:hover {
+    color:#fcdb5a;
+}
+
+.tele:hover {
+    color: #fcdb5a;    
+}
 
 .social-links {
     margin-top: 15px;
-    margin-left: 125px;
+    margin-left: 89px;
 }
 
 .footer-contacts a {
     text-decoration: none;
+}
+
+.yandexmap {
+    margin-left: 284px;
+    margin-top: -77px;
+    position: relative;
+}
+
+.yandexmap img {
+    position: absolute;
+    height: 69px;
+    width: 59px;
+    top: 230px;
+    left: 200px;
+}
+
+.privacy {
+    height: 47px;
+    margin-top: 28px;
+}
+
+.privacy ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.privacy ul li:first-child {
+    margin-left: 0px;
+}
+
+.privacy ul li {
+    margin-left: 6px;
+}  
+
+.privacy ul li a {
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(126, 126, 126);
+    text-align: left;
+    height: 13px;
+}  
+
+.privacy ul li a:hover {
+    color:#fcdb5a;
+}
+
+.privacy span {
+    color: rgb(126, 126, 126);
+}
+
+.copyright {
+    font-size: 13px;
+    font-family: "OpenSans";
+    margin-left: 180px;
 }
