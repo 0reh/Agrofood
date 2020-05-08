@@ -52,6 +52,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "et-line";
+    src: url(../fonts/et-line.ttf);
+    font-display: swap;
+}
+
 body {
     margin: 0px;
 }
@@ -945,6 +951,11 @@ h1 {
     background-size: cover;
 }
 
+.footer-container .container {
+    position: relative;
+}
+
+
 .logo img {
     height: 130px;
 }
@@ -1029,11 +1040,83 @@ h1 {
     margin-top: 74px;
 }
 
+.footer-email-contact {
+    text-decoration: none;
+    margin-top: 14px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    padding-bottom: 59px;
+}
+
 .footer-email-contact a {
     text-decoration: none;
     color: #fff;
 }
 
+.footer-contacts-column1 .footer-email {
+    margin-bottom: 14px;
+}
+
 .footer-contacts-column2 {
     margin-left: 76px;
+}
+
+.footer-contacts-column1 a {
+    text-decoration: none;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.icon-facebook::before {
+    margin-right: 15px;
+    content: '\e05d';
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'et-line';
+}
+
+.icon-facebook:hover::before {
+    box-shadow: 0 0 5px #fcdb5a;
+    border-radius: 12px;
+    color: #fcdb5a;
+  }
+
+.icon-twitter::before {
+    margin-right: 15px;
+    content: '\e05e';
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'et-line';
+}
+
+.icon-twitter:hover::before {
+    box-shadow: 0 0 5px #fcdb5a;
+    border-radius: 12px;
+    color: #fcdb5a;
+  }
+
+.icon-linkedin::before {
+    content: '\e062';
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'et-line';
+}
+
+.icon-linkedin:hover::before {
+    box-shadow: 0 0 5px #fcdb5a;
+    border-radius: 12px;
+    color: #fcdb5a;
+  }
+
+.social-links {
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+.footer-contacts a {
+    text-decoration: none;
 }
