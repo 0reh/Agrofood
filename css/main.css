@@ -1,1180 +1,173 @@
-@font-face {
-    font-family: "OpenSans";
-    src: url(../fonts/OpenSans-Regular.ttf);
-    font-display: block;   
-}
-
-@font-face {
-    font-family: "OpenSansLight";
-    src: url(../fonts/OpenSans-Light.ttf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "Storytella";
-    src: url(../fonts/Storytella.otf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "RalewayBold";
-    src: url(../fonts/Raleway-Bold.ttf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "RalewayThin";
-    src: url(../fonts/Raleway-Thin.ttf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "RalewayBlack";
-    src: url(../fonts/Raleway-Black.ttf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "GilroyExtraBold";
-    src: url(../fonts/Gilroy-ExtraBold.otf);
-    font-display: block;
-}
-
-@font-face {
-    font-family: "TimesNewRomanItalique";
-    src: url(../fonts/Times-New-Roman-Italique.ttf);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "TimesNewRomanBold";
-    src: url(../fonts/Times-New-Roman-Bold.TTF);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "et-line";
-    src: url(../fonts/et-line.ttf);
-    font-display: swap;
-}
-
-body {
-    margin: 0px;
-}
-
-.main-head {
-    background-image: url(../images/content/content-main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1940px;
-    width: 100%;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-.container2 {
-    max-width: 1380px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-}
-.container3 {
-    max-width: 1630px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-hr {
-    width: 100%;
-    height: 1px;
-    margin: 0;
-    height: 1px;
-    border: none;
-    background-color: #464e5e;
-}
-
-.main-head .container {
-    display: flex;
-    justify-content: space-between;
-    height: 107px;
-    position: relative;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    margin-left: -400px;
-}
-
-ul {
-    display: flex;
-    text-transform: capitalize;
-    color: #fff;
-    list-style: none;
-    font-family: "OpenSans";
-    font-size: 14px;
-    padding-left: 35px;
-}
-
-.main-head .container button {
-    font-family: "RalewayBold";
-    border-radius: 22px;
-    background-color: #fff;
-    width: 153px;
-    height: 45px;
-    border: none;
-    text-transform: uppercase;
-    padding: 0px;
-    margin: 31px 0px 31px 0px;
-}
-
-
-ul li a {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: #fcdb5a;
-}
-
-ul li {
-    margin-left: 34px;
-}
-
-.btn {
-    padding: 44px 0px 44px 0px;
-}
-
-.btn.active {
-    border-bottom: 1px solid #fcdb5a;
-    padding: 44px 0px 44px 0px;
-}
-
-#myBtnContainer {
-    margin-left: auto;
-}
-
-.btn.active a {
-    color: #fcdb5a;
-}
-
-ul li a:hover {
-    color: #fcdb5a;
-    cursor: pointer;
-}
-
-h1 {
-    font-family: "Storytella";
-    font-size: 200px;
-    color: #fff;
-    margin-top: 200px;
-    line-height: 200px;
-    margin-bottom: 318px;
-}
-
-.sweet {
-    grid-area: header;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    color: #fff;
-    background-image: url(../images/content/awesome_sweet.png);
-    font-family: "RalewayBlack";
-    font-size: 30px;
-    margin: 0px;
-    padding: 0px 0px 29px 29px;
-    text-transform: uppercase;
-}
-
-.sweet2 {
-    color: #fff;
-    font-family: "RalewayThin";
-    font-size: 30px;
-    display: contents;
-}
-
-.organic {
-    grid-area: header2;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    color: #fff;
-    background-image: url(../images/content/organic_food.png);
-    font-family: "RalewayBlack";
-    font-size: 30px;
-    margin: 0px;
-    padding: 0px 0px 29px 29px;
-    text-transform: uppercase;
-}
-
-.organic2 {
-    color: #fff;
-    font-family: "RalewayThin";
-    font-size: 30px;
-    display: contents;
-}
-
-.meal {
-    grid-area: header3;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    color: #fff;
-    background-image: url(../images/content/tasty_meal.png);
-    font-family: "RalewayBlack";
-    font-size: 30px;
-    margin: 0px;
-    padding: 0px 0px 29px 29px;
-    text-transform: uppercase;
-}
-
-.meal2 {
-    color: #fff;
-    font-family: "RalewayThin";
-    font-size: 30px;
-    display: contents;
-}
-
-.juicy {
-    grid-area:sidebar;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    color: #fff;
-    background-image: url(../images/content/juicy_fruits.png);
-    font-family: "RalewayBlack";
-    width: 616px;
-    font-size: 30px;
-    margin: 0px;
-    padding: 0px 0px 29px 29px;
-    text-transform: uppercase;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-self: end;
-}
-
-.juicy2 {
-    color: #fff;
-    font-family: "RalewayThin";
-    font-size: 30px;
-    display: contents;
-}
-
-.agroawesome {
-    grid-area: none;
-    display: flex;
-    align-items: center;
-    color: #fcdb5a;
-    font-size: 40px;
-    font-family: "RalewayBlack";
-    text-transform: uppercase;
-    padding-left: 90px;
-}
-
-.agroawesome2 {
-    color: #fcdb5a;
-    font-family: "RalewayThin";
-    font-size: 40px;
-    display: contents;
-    text-transform: uppercase;
-}
-
-.fancygallery {
-    display: grid;
-    margin-top: -22px;
-    justify-content: center;
-    grid-template-columns: 380px 500px 500px;
-    grid-template-rows: 310px 369px;
-    row-gap: 0;
-    grid-template-areas:
-    "header header2 header3"
-    "header none sidebar";
-}
-
-.content {
-    position: relative;
-}
-
-.content .container {
-    margin-top: 71px;
-}
-
-.qft {
-    position: absolute;
-    top: -36px;
-    right: 764px;
-}
-
-.qf {
-    position: absolute;
-    font-family: "Storytella";
-    font-size: 100px;
-    top: -98px;
-    right: 450px;
-    color: #fcdb5a;
-    text-transform: capitalize;
-}
-
-.qf2 {
-    font-family: "Storytella";
-    color: #db2985;
-    text-transform: none;
-}
-
-.qf3 {
-    position: absolute;
-    font-family: "Storytella";
-    font-size: 100px;
-    top: 10px;
-    right: 517px;
-    color: #db2985;
-    text-transform: none;
-} 
-
-.qf4 {
-    font-family: "Storytella";
-    color: #72aa41;
-    text-transform: none;
-}
-
-.qf5 {
-    position: absolute;
-    font-family: "Storytella";
-    font-size: 100px;
-    top: 110px;
-    right: 353px;
-    color: #72aa41;
-    text-transform: none;
-}
-
-.qf6 {
-    font-family: "Storytella";
-    color: #f2a137;
-    text-transform: none;
-}
-
-.qf7 {
-    position: absolute;
-    font-family: "Storytella";
-    font-size: 100px;
-    top: 204px;
-    right: 535px;
-    color: #f2a137;
-    text-transform: none;
-}
-
-.qf8 {
-    font-family: "Storytella";
-    color: #4fb1c9;
-    text-transform: none;
-}
-
-.qualityfood {
-    height: 492px;
-}
-
-.agrofood {
-    line-height: 34px;
-}
-
-.agrofood p {
-    display: flex;
-    justify-content: center;
-    margin-top: 160px;
-    font-size: 40px;
-    font-family: "RalewayBlack";
-    text-transform: uppercase;
-    margin-bottom: 0px;
-}
-
-.agrofood span {
-    font-size: 40px;
-    font-family: "RalewayThin";
-    text-transform: uppercase;
-    margin-left: 9px;
-}
-
-.agrofood-p {
-    font-family: "OpenSansLight";
-    font-size: 18px;
-    margin-top: 25px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    color: #b3b3b3;
-}
-
-.agrofood-p p {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    line-height: 20px;
-}
-
-.icons-section {
-    margin-top: 85px;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.icons-section p {
-    font-family: "RalewayBold";
-    font-size: 16px;
-    margin-bottom: 136px;
-    margin-top: 26px;
-}
-
-.steak:hover {
-    background-image: url(../images/content/icon-1-hover.png);
-    background-repeat: no-repeat;
-    background-position-y: 3px;
-    background-position-x: 21px;
-    cursor: pointer;
-}
-
-.steak:hover img{
-    visibility: hidden;
-}
-
-.cereals:hover {
-    background-image: url(../images/content/icon-2-hover.png);
-    background-repeat: no-repeat;
-    background-position-y: 0px;
-    background-position-x: 25px;
-    cursor: pointer;
-}
-
-.cereals:hover img{
-    visibility: hidden;
-}
-
-.pizza:hover {
-    background-image: url(../images/content/icon-3-hover.png);
-    background-repeat: no-repeat;
-    background-position-y: 0px;
-    background-position-x: 16px;
-    cursor: pointer;
-}
-
-.pizza:hover img{
-    visibility: hidden;
-}
-
-.agro-perfect {
-    background-image: url(../images/content/agro-perfect.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 74vh;
-    width: 100%;
-}
-
-.agro-perfect .container {
-    padding-top: 147px;
-}
-
-.agro-perfect-main-p1 {
-    margin-top: 0px;
-    font-family: "RalewayBlack";
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
-
-.agro-perfect-main-p2 {
-    margin-top: 0px;
-    font-family: "RalewayThin";
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 30px;
-    margin-bottom: 34px;
-}
-
-.agro-perfect-main-p3 {
-    font-family: "OpenSans";
-    font-size: 14px;
-    color: #c5c5c5;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 21px;
-}
-
-.agro-perfect-main button{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(252, 219, 90);
-    border-radius: 26px;
-    background-color: rgb(252, 219, 90);
-    width: 163px;
-    height: 58px;
-    margin-top: 48px;
-    font-family: "RalewayBold";
-    font-size: 12px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.agro-grid {
-    margin-top: 108px;
-    margin-left: -15px;
-    display: grid;
-    grid-template-columns: 292px 292px 292px 292px;
-    grid-template-rows: 221px 221px;
-    grid-template-areas: 
-    "agro1 none1 agro3 none2" 
-    "none3 agro2 none4 agro4";
-}
-
-.agro1 {
-    grid-area: agro1;
-    background-image: url(../images/content/agro-grid-1.png);
-}
-
-.agro2 {
-    grid-area: agro2;
-    background-image: url(../images/content/agro-grid-2.png);
-}
-
-.agro3 {
-    grid-area: agro3;
-    background-image: url(../images/content/agro-grid-3.png);
-}
-
-.agro4 {
-    grid-area: agro4;
-    background-image: url(../images/content/agro-grid-4.png);
-}
-
-.none1 {
-    grid-area: none1;
-}
-
-.none2 {
-    grid-area: none2;
-}
-
-.none3 {
-    grid-area: none3;
-}
-
-.none4 {
-    grid-area: none4;
-}
-
-.none1, .none2, .none3, .none4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 48px 0px 48px 43px;
-    background-image: url(../images/content/none.png);
-}
-
-.none1-p {
-    font-family: "RalewayBold";
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.none1-p2 {
-    font-family: "OpenSans";
-    font-size: 14px;
-    width: 222px;
-    color: #666;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.tasty-cakes {
-    background-image: url(../images/content/tasty_cakes.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 684px;
-    width: 100%;
-}
-
-.tasty-cakes-p {
-    margin-top: 555px;
-    font-family: "Storytella";
-    font-size: 230px;
-    line-height: 180px;
-    color: #ccaf8a;
-    text-transform: capitalize;
-    background-image: url(../images/content/organic_fresh_food_logo.png);
-    background-repeat: no-repeat;
-    background-position-x: 874px;
-    background-position-y: 77px;
-}
-
-.agro-progress .agrofood p {
-    margin-top: 150px;    
-}
-
-.agrofood-progress .one,
-.agrofood-progress .two,
-.agrofood-progress .three,
-.agrofood-progress .four {
-    display: flex;
-    width: 300px;
-}
-
-.agrofood-progress {
-    display: flex;
-    margin-top: 75px;
-    margin-bottom: 150px;
-}
-
-.agrofood-progress .two,
-.agrofood-progress .three,
-.agrofood-progress .four {
-    margin-left: 115px;
-}
-
-.agrofood-progress .one {
-    margin-left: 0px;
-}
-
-.agrofood-progress p {
-    display: flex;
-    flex-direction: column;
-    font-family: "GilroyExtraBold";
-    font-size: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-}
-
-.agrofood-progress span {
-    font-family: "RalewayBold";
-    font-size: 16px;
-}
-
-.agrofood-progress span {
-    display: block;
-    margin-left: 20px;
-}
-
-.agro-grid-2 {
-    display: grid;
-    grid-template-columns: 400px 400px 400px 400px;
-    grid-template-rows: 370px 370px;
-    grid-template-areas: 
-    "agro5 agro6 agro7 agro8" 
-    "agro9 agro10 agro11 agro12";
-}
-
-.agro5 {
-    grid-area: agro5;
-    background-image: url(../images/content/agro-grid-5.png);
-    background-repeat: no-repeat;
-}
-
-.agro6 {
-    grid-area: agro6;
-    background-image: url(../images/content/agro-grid-6.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro7 {
-    grid-area: agro7;
-    background-image: url(../images/content/agro-grid-7.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro8 {
-    grid-area: agro8;
-    background-image: url(../images/content/agro-grid-8.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro9 {
-    grid-area: agro9;
-    background-image: url(../images/content/agro-grid-9.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro10 {
-    grid-area: agro10;
-    background-image: url(../images/content/agro-grid-10.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro11 {
-    grid-area: agro11;
-    background-image: url(../images/content/agro-grid-11.png);
-    background-repeat: no-repeat;
-
-}
-
-.agro12 {
-    grid-area: agro12;
-    background-image: url(../images/content/agro-grid-12.png);
-        background-repeat: no-repeat;
-}
-
-.agrofoodsays {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../images/content/peoplesays1.png);
-    background-repeat: no-repeat;
-    height: 714px;
-}
-
-.agrofoodsays p {
-    font-family: "RalewayBlack";
-    font-size: 40px;
-    margin-top: 150px;
-    margin-bottom: 25px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #fff;
-    align-items: center;
-}
-
-.agrofoodsays span {
-    font-family: "RalewayThin";
-    font-size: 40px;
-    line-height: 30px;
-    display: inline-block;
-    text-transform: uppercase;
-    color: #fff;
-    margin-left: 10px;
-}
-
-.agrofoodsays .p2 {
-    font-size: 18px;
-    font-family: "OpenSansLight";
-    text-transform: none;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 65px;
-    text-align: center;
-    width: 35%;
-}
-
-.agro-slider {
-    display: flex;
-    justify-content: center;
-    width: 69%;
-}
-
-.agro-slider div {
-    display: flex;
-}
-
-.agro-slider span {
-    display: inline-block;
-    font-size: 100px;
-    font-family: "TimesNewRomanBold";
-    color:#fcdb5a;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 22px;
-}
-
-.agro-slider .special-SEO {
-    margin-right: 0px;
-    position: absolute;
-    left: -74px;    
-}
-
-
-.agro-slider p {
-    font-family: "TimesNewRomanItalique";
-    font-size: 25px;
-    text-transform: none;
-    margin: 0;
-    position: relative;
-}
-
-.slick-list.draggable .Terens_SEO {
-    display: flex;
-    margin-top: 38px;
-}
-
-.agro-slider .Terens_SEO_bio {
-    font-family: "RalewayBold";
-    font-size: 18px;
-    color: #fff;
-    text-transform: capitalize;
-    vertical-align: top;
-    margin-left: 22px;
-}
-
-.agro-slider .Terens_SEO_pos {
-    font-family: "RalewayRegular";
-    font-size: 18px;
-    color: #fff;
-    text-transform: none;
-}
-
-.slick-dots li button:before {
-    content: url(../images/content/dot.png);
-}
-
-.slick-dots li.slick-active button:before {
-    content: url(../images/content/dot_active.png);
-}
-
-.agro-slider-div {
-    padding: 40px 80px 40px 120px;
-    position: relative;
-}
-
-.container3 .agrofood {
-    margin-top: 140px;
-}
-
-.agrofood-blog {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.agrofood-blog-column1 {
-    background-image: url(../images/content/blog-post-1.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 370px;
-}
-
-.agrofood-blog-prev1,
-.agrofood-blog-prev2,
-.agrofood-blog-prev3 {
-    background-color: rgb(252, 219, 90);
-    width: 61px;
-    height: 65px;
-    margin-left: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.agrofood-blog-column-p1 {
-    font-family: "GilroyExtraBold";
-    font-size: 25px;
-    color: #333;
-    margin: 0px;
-}
-
-.agrofood-blog-column-p2 {
-    color: #9a8841;
-    font-family: "RalewayBold";
-    font-size: 12px;
-    margin: 0px;
-}
-
-.agrofood-blog-column-p3 {
-    color: #ddc051;
-    font-size: 12px;
-    font-family: "OpenSans";
-    text-transform: uppercase;
-    margin: 258px 0px 0px 30px;
-    line-height: 10px;
-}
-
-.agrofood-blog-column-p4 {
-    color: #fff;
-    font-size: 18px;
-    font-family: "RalewayBold";
-    text-transform: none;
-    margin: 17px 0px 25px 30px;
-}
-
-.agrofood-blog-column2 {
-    background-image: url(../images/content/blog-post-2.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 370px;
-}
-
-.agrofood-blog-column3 {
-    background-image: url(../images/content/blog-post-3.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 370px;
-}
-
-.logo-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 104px;
-}
-
-.logo-one {
-    height: 164px;
-}
-
-.logo-two {
-    height: 123px;
-}
-
-.logo-three {
-    height: 83px;
-}
-
-.logo-four {
-    height: 128px;
-}
-
-.logo-five {
-    height: 120px;
-}
-
-.footer-container {
-    background-image: url(../images/footer/footer-back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.logo img {
-    height: 130px;
-}
-
-.footer-container .container .logo {
-    padding-top: 77px;
-    height: 176px;
-    max-width: 670px;
-    display: flex;
-}
-
-.footer-email {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 12px;
-    font-family: "RalewayBold";
-    color: rgb(253, 229, 87);
-    text-transform: uppercase;
-    line-height: 10px;
-    text-align: left;
-}
-
-.footer-email-contact {
-    font-size: 14px;
-    margin-bottom: 0px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    padding-bottom: 59px;
-}
-
-.container hr {
-    width: 670px;
-    height: 1px;
-    margin: 0;
-    height: 1px;
-    border: none;
-    background-color: #464e5e;
-}
-
-.btn2.actual {
-    border-bottom: 1px solid #fcdb5a;
-}
-
-#myBtnContainer2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 160px;
-    margin-top: 3px;
-    padding-bottom: 74px;
-}
-
-.logo ul {
-    margin-left: 0px;
-}
-
-.btn2.actual a {
-    color: #fcdb5a;
-}
-
-.logo ul li {
-    margin-left: 0px;
-    margin-top: 12px;
-}
-
-.logo ul li:first-child {
-    margin-top: 0px;
-}
-
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-    padding-left: 83px;
-    margin-top: 3px;
-}
-
-.logo .footer-menu ul li:first-child {
-    margin-top: 0px;
-}
-
-.footer-contacts {
-    display: flex;
-    margin-top: 74px;
-}
-
-.footer-email-contact {
-    text-decoration: none;
-    margin-top: 14px;
-    font-size: 14px;
-    margin-bottom: 0px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    padding-bottom: 59px;
-}
-
-.footer-email-contact a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-contacts-column1 .footer-email {
-    margin-bottom: 14px;
-}
-
-.footer-contacts-column2 {
-    margin-left: 76px;
-}
-
-.footer-contacts-column1 a {
-    text-decoration: none;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
-    margin-top: 14px;
-    font-size: 14px;
-}
-
-.icon-facebook::before {
-    margin-right: 15px;
-    content: '\e05d';
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'et-line';
-}
-
-.icon-facebook:hover::before {
-    box-shadow: 0 0 5px #fcdb5a;
-    border-radius: 12px;
-    color: #fcdb5a;
-  }
-
-.icon-twitter::before {
-    margin-right: 15px;
-    content: '\e05e';
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'et-line';
-}
-
-.icon-twitter:hover::before {
-    box-shadow: 0 0 5px #fcdb5a;
-    border-radius: 12px;
-    color: #fcdb5a;
-  }
-
-.icon-linkedin::before {
-    content: '\e062';
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'et-line';
-}
-
-.icon-linkedin:hover::before {
-    box-shadow: 0 0 5px #fcdb5a;
-    border-radius: 12px;
-    color: #fcdb5a;
-}
-
-.footer-contacts-column1 a:hover {
-    color:#fcdb5a;
-}
-
-.tele:hover {
-    color: #fcdb5a;    
-}
-
-.social-links {
-    margin-top: 15px;
-    margin-left: 89px;
-}
-
-.footer-contacts a {
-    text-decoration: none;
-}
-
-.yandexmap {
-    margin-top: -77px;
-    position: absolute;
-    right: 151px;
-}
-
-.yandexmap img {
-    position: absolute;
-    height: 69px;
-    width: 59px;
-    top: 230px;
-    left: 200px;
-}
-
-.privacy {
-    height: 47px;
-    margin-top: 28px;
-}
-
-.privacy ul {
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-}
-
-.privacy ul li:first-child {
-    margin-left: 0px;
-}
-
-.privacy ul li {
-    margin-left: 6px;
-}  
-
-.privacy ul li a {
-    font-size: 13px;
-    font-family: "OpenSans";
-    color: rgb(126, 126, 126);
-    text-align: left;
-    height: 13px;
-}  
-
-.privacy ul li a:hover {
-    color:#fcdb5a;
-}
-
-.privacy span {
-    color: rgb(126, 126, 126);
-}
-
-.copyright {
-    font-size: 13px;
-    font-family: "OpenSans";
-    margin-left: 180px;
-}
+@font-face{font-family:OpenSans;src:url(../fonts/OpenSans-Regular.ttf);font-display:block}
+@font-face{font-family:OpenSansLight;src:url(../fonts/OpenSans-Light.ttf);font-display:block}
+@font-face{font-family:Storytella;src:url(../fonts/Storytella.otf);font-display:block}
+@font-face{font-family:RalewayBold;src:url(../fonts/Raleway-Bold.ttf);font-display:block}
+@font-face{font-family:RalewayThin;src:url(../fonts/Raleway-Thin.ttf);font-display:block}
+@font-face{font-family:RalewayBlack;src:url(../fonts/Raleway-Black.ttf);font-display:block}
+@font-face{font-family:GilroyExtraBold;src:url(../fonts/Gilroy-ExtraBold.otf);font-display:block}
+@font-face{font-family:TimesNewRomanItalique;src:url(../fonts/Times-New-Roman-Italique.ttf);font-display:swap}
+@font-face{font-family:TimesNewRomanBold;src:url(../fonts/Times-New-Roman-Bold.TTF);font-display:swap}
+@font-face{font-family:et-line;src:url(../fonts/et-line.ttf);font-display:swap}
+body{margin:0}
+.main-head{background-image:url(../images/content/content-main.png);background-repeat:no-repeat;background-size:cover;height:1940px;width:100%}
+.container{max-width:1170px;margin:0 auto;padding:0 15px;box-sizing:border-box}
+.container2{max-width:1380px;margin:0 auto;padding:0 15px;box-sizing:border-box;margin-left:auto;margin-right:auto}
+.container3{max-width:1630px;margin:0 auto;padding:0 15px;box-sizing:border-box}
+hr{width:100%;height:1px;margin:0;height:1px;border:none;background-color:#464e5e}
+.main-head .container{display:flex;justify-content:space-between;height:107px;position:relative}
+.nav-bar{display:flex;align-items:center;margin-left:-400px}
+ul{display:flex;text-transform:capitalize;color:#fff;list-style:none;font-family:OpenSans;font-size:14px;padding-left:35px}
+.main-head .container button{font-family:RalewayBold;border-radius:22px;background-color:#fff;width:153px;height:45px;border:none;text-transform:uppercase;padding:0;margin:31px 0 31px 0;cursor:pointer}
+.main-head .container button:focus{outline:0}
+.main-head .container button:hover{background-color:#fcdb5a;transition:.5s}
+ul li a{color:#fff;text-decoration:none;border-bottom:#fcdb5a}
+ul li{margin-left:34px}
+.btn{padding:44px 0 44px 0}
+.btn.active{border-bottom:1px solid #fcdb5a;padding:44px 0 44px 0}
+#myBtnContainer{margin-left:auto}
+.btn.active a{color:#fcdb5a}
+ul li a:hover{color:#fcdb5a;cursor:pointer}
+h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-height:200px;margin-bottom:318px}
+.sweet{grid-area:header;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/awesome_sweet.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.sweet2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
+.organic{grid-area:header2;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/organic_food.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.organic2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
+.meal{grid-area:header3;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/tasty_meal.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.meal2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
+.juicy{grid-area:sidebar;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/juicy_fruits.png);font-family:RalewayBlack;width:616px;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase;background-repeat:no-repeat;background-size:cover;justify-self:end}
+.juicy2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
+.agroawesome{grid-area:none;display:flex;align-items:center;color:#fcdb5a;font-size:40px;font-family:RalewayBlack;text-transform:uppercase;padding-left:90px}
+.agroawesome2{color:#fcdb5a;font-family:RalewayThin;font-size:40px;display:contents;text-transform:uppercase}
+.fancygallery{display:grid;margin-top:-22px;justify-content:center;grid-template-columns:380px 500px 500px;grid-template-rows:310px 369px;row-gap:0;grid-template-areas:"header header2 header3" "header none sidebar"}
+.content{position:relative}
+.content .container{margin-top:71px}
+.qft{position:absolute;top:-36px;right:764px}
+.qf{position:absolute;font-family:Storytella;font-size:100px;top:-98px;right:450px;color:#fcdb5a;text-transform:capitalize}
+.qf2{font-family:Storytella;color:#db2985;text-transform:none}
+.qf3{position:absolute;font-family:Storytella;font-size:100px;top:10px;right:517px;color:#db2985;text-transform:none}
+.qf4{font-family:Storytella;color:#72aa41;text-transform:none}
+.qf5{position:absolute;font-family:Storytella;font-size:100px;top:110px;right:353px;color:#72aa41;text-transform:none}
+.qf6{font-family:Storytella;color:#f2a137;text-transform:none}
+.qf7{position:absolute;font-family:Storytella;font-size:100px;top:204px;right:535px;color:#f2a137;text-transform:none}
+.qf8{font-family:Storytella;color:#4fb1c9;text-transform:none}
+.qualityfood{height:492px}
+.agrofood{line-height:34px}
+.agrofood p{display:flex;justify-content:center;margin-top:160px;font-size:40px;font-family:RalewayBlack;text-transform:uppercase;margin-bottom:0}
+.agrofood span{font-size:40px;font-family:RalewayThin;text-transform:uppercase;margin-left:9px}
+.agrofood-p{font-family:OpenSansLight;font-size:18px;margin-top:25px;display:flex;text-align:center;flex-direction:column;color:#b3b3b3}
+.agrofood-p p{margin-top:0;margin-bottom:10px;line-height:20px}
+.icons-section{margin-top:85px;display:flex;text-align:center;justify-content:space-around}
+.icons-section p{font-family:RalewayBold;font-size:16px;margin-bottom:136px;margin-top:26px}
+.agro-perfect{background-image:url(../images/content/agro-perfect.png);background-repeat:no-repeat;background-size:cover;height:74vh;width:100%}
+.agro-perfect .container{padding-top:147px}
+.agro-perfect-main-p1{margin-top:0;font-family:RalewayBlack;font-size:40px;text-transform:uppercase;color:#fff;line-height:30px;margin-bottom:20px}
+.agro-perfect-main-p2{margin-top:0;font-family:RalewayThin;font-size:40px;text-transform:uppercase;color:#fff;line-height:30px;margin-bottom:34px}
+.agro-perfect-main-p3{font-family:OpenSans;font-size:14px;color:#c5c5c5;margin-top:0;margin-bottom:0;line-height:21px}
+.agro-perfect-main button{border-style:solid;border-width:3px;border-radius:26px;background-color:#fff;width:163px;height:58px;margin-top:48px;font-family:RalewayBold;font-size:12px;text-transform:uppercase;cursor:pointer}
+.agro-perfect-main button:hover{background-color:#fcdb5a;transition:.5s;border-color:#fcdb5a}
+.agro-perfect .container button:focus{outline:0}
+.agro-grid{margin-top:108px;margin-left:-15px;display:grid;grid-template-columns:292px 292px 292px 292px;grid-template-rows:221px 221px;grid-template-areas:"agro1 none1 agro3 none2" "none3 agro2 none4 agro4"}
+.agro1{grid-area:agro1;background-image:url(../images/content/agro-grid-1.png)}
+.agro2{grid-area:agro2;background-image:url(../images/content/agro-grid-2.png)}
+.agro3{grid-area:agro3;background-image:url(../images/content/agro-grid-3.png)}
+.agro4{grid-area:agro4;background-image:url(../images/content/agro-grid-4.png)}
+.none1{grid-area:none1}
+.none2{grid-area:none2}
+.none3{grid-area:none3}
+.none4{grid-area:none4}
+.none1,.none2,.none3,.none4{display:flex;flex-direction:column;justify-content:space-between;padding:48px 0 48px 43px;background-image:url(../images/content/none.png)}
+.none1-p{font-family:RalewayBold;font-size:18px;margin-top:0;margin-bottom:0}
+.none1-p2{font-family:OpenSans;font-size:14px;width:222px;color:#666;margin-top:0;margin-bottom:0}
+.tasty-cakes{background-image:url(../images/content/tasty_cakes.png);background-repeat:no-repeat;background-size:cover;height:684px;width:100%}
+.tasty-cakes-p{margin-top:555px;font-family:Storytella;font-size:230px;line-height:180px;color:#ccaf8a;text-transform:capitalize;background-image:url(../images/content/organic_fresh_food_logo.png);background-repeat:no-repeat;background-position-x:874px;background-position-y:77px}
+.agro-progress .agrofood p{margin-top:150px}
+.agrofood-progress .four,.agrofood-progress .one,.agrofood-progress .three,.agrofood-progress .two{display:flex;width:300px}
+.agrofood-progress{display:flex;margin-top:75px;margin-bottom:150px}
+.agrofood-progress .four,.agrofood-progress .three,.agrofood-progress .two{margin-left:115px}
+.agrofood-progress .one{margin-left:0}
+.agrofood-progress p{display:flex;flex-direction:column;font-family:GilroyExtraBold;font-size:50px;margin-top:0;margin-bottom:0;padding-left:20px}
+.agrofood-progress span{font-family:RalewayBold;font-size:16px}
+.agrofood-progress span{display:block;margin-left:20px}
+.agro-grid-2{display:grid;grid-template-columns:400px 400px 400px 400px;grid-template-rows:370px 370px;grid-template-areas:"agro5 agro6 agro7 agro8" "agro9 agro10 agro11 agro12"}
+.agro5{grid-area:agro5;background-image:url(../images/content/agro-grid-5.png);background-repeat:no-repeat}
+.agro6{grid-area:agro6;background-image:url(../images/content/agro-grid-6.png);background-repeat:no-repeat}
+.agro7{grid-area:agro7;background-image:url(../images/content/agro-grid-7.png);background-repeat:no-repeat}
+.agro8{grid-area:agro8;background-image:url(../images/content/agro-grid-8.png);background-repeat:no-repeat}
+.agro9{grid-area:agro9;background-image:url(../images/content/agro-grid-9.png);background-repeat:no-repeat}
+.agro10{grid-area:agro10;background-image:url(../images/content/agro-grid-10.png);background-repeat:no-repeat}
+.agro11{grid-area:agro11;background-image:url(../images/content/agro-grid-11.png);background-repeat:no-repeat}
+.agro12{grid-area:agro12;background-image:url(../images/content/agro-grid-12.png);background-repeat:no-repeat}
+.agrofoodsays{display:flex;flex-direction:column;align-items:center;justify-content:center;background-image:url(../images/content/peoplesays1.png);background-repeat:no-repeat;height:714px}
+.agrofoodsays p{font-family:RalewayBlack;font-size:40px;margin-top:150px;margin-bottom:25px;line-height:30px;text-transform:uppercase;color:#fff;align-items:center}
+.agrofoodsays span{font-family:RalewayThin;font-size:40px;line-height:30px;display:inline-block;text-transform:uppercase;color:#fff;margin-left:10px}
+.agrofoodsays .p2{font-size:18px;font-family:OpenSansLight;text-transform:none;align-items:center;margin-top:0;margin-bottom:65px;text-align:center;width:35%}
+.agro-slider{display:flex;justify-content:center;width:69%}
+.agro-slider div{display:flex}
+.agro-slider-div.slick-slide.slick-current.slick-active:focus{outline:0}
+.agro-slider p:focus{outline:0}
+.agro-slider span{display:inline-block;font-size:100px;font-family:TimesNewRomanBold;color:#fcdb5a;margin-top:10px;margin-left:0;margin-right:22px}
+.agro-slider .special-SEO{margin-right:0;position:absolute;left:-74px}
+.agro-slider p{font-family:TimesNewRomanItalique;font-size:25px;text-transform:none;margin:0;position:relative}
+.slick-list.draggable .Terens_SEO{display:flex;margin-top:38px}
+.agro-slider .Terens_SEO_bio{font-family:RalewayBold;font-size:18px;color:#fff;text-transform:capitalize;vertical-align:top;margin-left:22px}
+.agro-slider .Terens_SEO_pos{font-family:RalewayRegular;font-size:18px;color:#fff;text-transform:none}
+.slick-dots li button:before{content:url(../images/content/dot.png)}
+.slick-dots li.slick-active button:before{content:url(../images/content/dot_active.png)}
+.agro-slider-div{padding:40px 80px 40px 120px;position:relative}
+.container3 .agrofood{margin-top:140px}
+.agrofood-blog{display:flex;justify-content:space-between;margin-top:50px;margin-bottom:100px}
+.agrofood-blog-prev1,.agrofood-blog-prev2,.agrofood-blog-prev3{background-color:#fcdb5a;width:61px;height:65px;margin-left:30px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.agrofood-blog-column-p1{font-family:GilroyExtraBold;font-size:25px;color:#333;margin:0}
+.agrofood-blog-column-p2{color:#9a8841;font-family:RalewayBold;font-size:12px;margin:0}
+.agrofood-blog-column-p3{color:#ddc051;font-size:12px;font-family:OpenSans;text-transform:uppercase;margin:258px 0 0 30px;line-height:10px}
+.agrofood-blog-column-p4{color:#fff;font-size:18px;font-family:RalewayBold;text-transform:none;margin:17px 0 25px 30px}
+.agrofood-blog-column1:hover,.agrofood-blog-column2:hover,.agrofood-blog-column3:hover{background-color:#0b0b0b;opacity:.451;cursor:pointer}
+.agrofood-blog-column1{background-image:url(../images/content/blog-post-1.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.agrofood-blog-column2{background-image:url(../images/content/blog-post-2.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.agrofood-blog-column3{background-image:url(../images/content/blog-post-3.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.logo-container{display:flex;justify-content:space-around;align-items:center;margin-bottom:104px}
+.logo-one{height:164px}
+.logo-two{height:123px}
+.logo-three{height:83px}
+.logo-four{height:128px}
+.logo-five{height:120px}
+.footer-container{background-image:url(../images/footer/footer-back.png);background-repeat:no-repeat;background-size:cover}
+.logo img{height:130px}
+.footer-container .container .logo{padding-top:77px;height:176px;max-width:670px;display:flex}
+.footer-email{margin-top:0;margin-bottom:0;font-size:12px;font-family:RalewayBold;color:#fde557;text-transform:uppercase;line-height:10px;text-align:left}
+.footer-email-contact{font-size:14px;margin-bottom:0;font-family:OpenSans;color:#fff;padding-bottom:59px}
+.container hr{width:670px;height:1px;margin:0;height:1px;border:none;background-color:#464e5e}
+.btn2.actual{border-bottom:1px solid #fcdb5a}
+#myBtnContainer2{display:flex;flex-direction:column;padding-left:160px;margin-top:3px;padding-bottom:74px}
+.logo ul{margin-left:0}
+.btn2.actual a{color:#fcdb5a}
+.logo ul li{margin-left:0;margin-top:12px}
+.logo ul li:first-child{margin-top:0}
+.footer-menu{display:flex;flex-direction:column;padding-left:83px;margin-top:3px}
+.logo .footer-menu ul li:first-child{margin-top:0}
+.footer-contacts{display:flex;margin-top:74px}
+.footer-email-contact{text-decoration:none;margin-top:14px;font-size:14px;margin-bottom:0;font-family:OpenSans;color:#fff;padding-bottom:59px}
+.footer-email-contact a{text-decoration:none;color:#fff}
+.footer-contacts-column1 .footer-email{margin-bottom:14px}
+.footer-contacts-column2{margin-left:76px}
+.footer-contacts-column1 a{text-decoration:none;font-family:OpenSans;color:#fff;margin-top:14px;font-size:14px}
+.icon-facebook::before{margin-right:15px;content:'\e05d';font-size:24px;color:#fff;font-family:et-line}
+.icon-facebook:hover::before{box-shadow:0 0 5px #fcdb5a;border-radius:12px;color:#fcdb5a}
+.icon-twitter::before{margin-right:15px;content:'\e05e';font-size:24px;color:#fff;font-family:et-line}
+.icon-twitter:hover::before{box-shadow:0 0 5px #fcdb5a;border-radius:12px;color:#fcdb5a}
+.icon-linkedin::before{content:'\e062';font-size:24px;color:#fff;font-family:et-line}
+.icon-linkedin:hover::before{box-shadow:0 0 5px #fcdb5a;border-radius:12px;color:#fcdb5a}
+.footer-contacts-column1 a:hover{color:#fcdb5a}
+.tele:hover{color:#fcdb5a}
+.social-links{margin-top:15px;margin-left:89px}
+.footer-contacts a{text-decoration:none}
+.yandexmap{margin-top:-77px;position:absolute;right:151px}
+.yandexmap img{position:absolute;height:69px;width:59px;top:230px;left:200px}
+.privacy{height:47px;margin-top:28px}
+.privacy ul{margin:0;padding:0;display:inline-flex}
+.privacy ul li:first-child{margin-left:0}
+.privacy ul li{margin-left:6px}
+.privacy ul li a{font-size:13px;font-family:OpenSans;color:#7e7e7e;text-align:left;height:13px}
+.privacy ul li a:hover{color:#fcdb5a}
+.privacy span{color:#7e7e7e}
+.copyright{font-size:13px;font-family:OpenSans;margin-left:180px}
