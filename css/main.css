@@ -126,9 +126,9 @@ h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-heigh
 .agrofood-blog-column-p3{color:#ddc051;font-size:12px;font-family:OpenSans;text-transform:uppercase;margin:258px 0 0 30px;line-height:10px}
 .agrofood-blog-column-p4{color:#fff;font-size:18px;font-family:RalewayBold;text-transform:none;margin:17px 0 25px 30px}
 .agrofood-blog-column1:hover,.agrofood-blog-column2:hover,.agrofood-blog-column3:hover{background-color:#0b0b0b;opacity:.451;cursor:pointer}
-.agrofood-blog-column1{background-image:url(../images/content/blog-post-1.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
-.agrofood-blog-column2{background-image:url(../images/content/blog-post-2.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
-.agrofood-blog-column3{background-image:url(../images/content/blog-post-3.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.agrofood-blog-column1{background-image:url(../images/content/blog-post-1.webp);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.agrofood-blog-column2{background-image:url(../images/content/blog-post-2.webp);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
+.agrofood-blog-column3{background-image:url(../images/content/blog-post-3.webp);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:space-between;width:370px}
 .logo-container{display:flex;justify-content:space-around;align-items:center;margin-bottom:104px}
 .logo-one{height:164px}
 .logo-two{height:123px}
