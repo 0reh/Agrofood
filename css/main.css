@@ -9,7 +9,7 @@
 @font-face{font-family:TimesNewRomanBold;src:url(../fonts/Times-New-Roman-Bold.TTF);font-display:swap}
 @font-face{font-family:et-line;src:url(../fonts/et-line.ttf);font-display:swap}
 body{margin:0}
-.main-head{background-image:url(../images/content/content-main.png);background-repeat:no-repeat;background-size:cover;height:1940px;width:100%}
+.main-head{background-image:url(../images/content/content-main.webp);background-repeat:no-repeat;background-size:cover;height:1940px;width:100%}
 .container{max-width:1170px;margin:0 auto;padding:0 15px;box-sizing:border-box}
 .container2{max-width:1380px;margin:0 auto;padding:0 15px;box-sizing:border-box;margin-left:auto;margin-right:auto}
 .container3{max-width:1630px;margin:0 auto;padding:0 15px;box-sizing:border-box}
@@ -18,11 +18,9 @@ hr{width:100%;height:1px;margin:0;height:1px;border:none;background-color:#464e5
 .nav-bar{display:flex;align-items:center;margin-left:-400px}
 ul{display:flex;text-transform:capitalize;color:#fff;list-style:none;font-family:OpenSans;font-size:14px;padding-left:35px}
 .main-head .container button{font-family:RalewayBold;border-radius:22px;background-color:#fff;width:153px;height:45px;border:none;text-transform:uppercase;padding:0;margin:31px 0 31px 0;cursor:pointer}
-.main-head .container button{animation:animated-border 1.5s infinite}
-@keyframes animated-border{
-0%{box-shadow:0 0 0 0 rgba(255,255,255,.4)}
-100%{box-shadow:0 0 0 20px rgba(255,255,255,0)}
-}
+.main-head .container button{-webkit-animation:animated-border 1.5s infinite;animation:animated-border 1.5s infinite}
+@-webkit-keyframes animated-border{0%{box-shadow:0 0 0 0 rgba(255,255,255,.4)}100%{box-shadow:0 0 0 20px rgba(255,255,255,0)}}
+@keyframes animated-border{0%{box-shadow:0 0 0 0 rgba(255,255,255,.4)}100%{box-shadow:0 0 0 20px rgba(255,255,255,0)}}
 .main-head .container button:focus{outline:0}
 .main-head .container button:hover{background-color:#fcdb5a;transition:.5s}
 ul li a{color:#fff;text-decoration:none;border-bottom:#fcdb5a}
@@ -33,13 +31,13 @@ ul li{margin-left:34px}
 .btn.active a{color:#fcdb5a}
 ul li a:hover{color:#fcdb5a;cursor:pointer}
 h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-height:200px;margin-bottom:318px}
-.sweet{grid-area:header;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/awesome_sweet.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.sweet{grid-area:header;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/awesome_sweet.webp);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
 .sweet2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
-.organic{grid-area:header2;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/organic_food.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.organic{grid-area:header2;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/organic_food.webp);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
 .organic2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
-.meal{grid-area:header3;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/tasty_meal.png);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
+.meal{grid-area:header3;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/tasty_meal.webp);font-family:RalewayBlack;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase}
 .meal2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
-.juicy{grid-area:sidebar;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/juicy_fruits.png);font-family:RalewayBlack;width:616px;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase;background-repeat:no-repeat;background-size:cover;justify-self:end}
+.juicy{grid-area:sidebar;display:flex;align-items:flex-end;justify-content:end;color:#fff;background-image:url(../images/content/juicy_fruits.webp);font-family:RalewayBlack;width:616px;font-size:30px;margin:0;padding:0 0 29px 29px;text-transform:uppercase;background-repeat:no-repeat;background-size:cover;justify-self:end}
 .juicy2{color:#fff;font-family:RalewayThin;font-size:30px;display:contents}
 .agroawesome{grid-area:none;display:flex;align-items:center;color:#fcdb5a;font-size:40px;font-family:RalewayBlack;text-transform:uppercase;padding-left:90px}
 .agroawesome2{color:#fcdb5a;font-family:RalewayThin;font-size:40px;display:contents;text-transform:uppercase}
@@ -63,13 +61,13 @@ h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-heigh
 .agrofood-p p{margin-top:0;margin-bottom:10px;line-height:20px}
 .icons-section{margin-top:85px;display:flex;text-align:center;justify-content:space-around}
 .icons-section p{font-family:RalewayBold;font-size:16px;margin-bottom:136px;margin-top:26px}
-.agro-perfect{background-image:url(../images/content/agro-perfect.png);background-repeat:no-repeat;background-size:cover;height:74vh;width:100%}
+.agro-perfect{background-image:url(../images/content/agro-perfect.webp);background-repeat:no-repeat;background-size:cover;height:74vh;width:100%}
 .agro-perfect .container{padding-top:147px}
 .agro-perfect-main-p1{margin-top:0;font-family:RalewayBlack;font-size:40px;text-transform:uppercase;color:#fff;line-height:30px;margin-bottom:20px}
 .agro-perfect-main-p2{margin-top:0;font-family:RalewayThin;font-size:40px;text-transform:uppercase;color:#fff;line-height:30px;margin-bottom:34px}
 .agro-perfect-main-p3{font-family:OpenSans;font-size:14px;color:#c5c5c5;margin-top:0;margin-bottom:0;line-height:21px}
 .agro-perfect-main button{border-style:solid;border-width:3px;border-radius:26px;background-color:#fff;width:163px;height:58px;margin-top:48px;font-family:RalewayBold;font-size:12px;text-transform:uppercase;cursor:pointer}
-.agro-perfect-main button{animation:animated-border 1.5s infinite}
+.agro-perfect-main button{-webkit-animation:animated-border 1.5s infinite;animation:animated-border 1.5s infinite}
 .agro-perfect-main button:hover{background-color:#fcdb5a;transition:.5s;border-color:#fcdb5a}
 .agro-perfect .container button:focus{outline:0}
 .agro-grid{margin-top:108px;margin-left:-15px;display:grid;grid-template-columns:292px 292px 292px 292px;grid-template-rows:221px 221px;grid-template-areas:"agro1 none1 agro3 none2" "none3 agro2 none4 agro4"}
@@ -84,7 +82,7 @@ h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-heigh
 .none1,.none2,.none3,.none4{display:flex;flex-direction:column;justify-content:space-between;padding:48px 0 48px 43px;background-image:url(../images/content/none.png)}
 .none1-p{font-family:RalewayBold;font-size:18px;margin-top:0;margin-bottom:0}
 .none1-p2{font-family:OpenSans;font-size:14px;width:222px;color:#666;margin-top:0;margin-bottom:0}
-.tasty-cakes{background-image:url(../images/content/tasty_cakes.png);background-repeat:no-repeat;background-size:cover;height:684px;width:100%}
+.tasty-cakes{background-image:url(../images/content/tasty_cakes.webp);background-repeat:no-repeat;background-size:cover;height:684px;width:100%}
 .tasty-cakes-p{margin-top:555px;font-family:Storytella;font-size:230px;line-height:180px;color:#ccaf8a;text-transform:capitalize;background-image:url(../images/content/organic_fresh_food_logo.png);background-repeat:no-repeat;background-position-x:874px;background-position-y:77px}
 .agro-progress .agrofood p{margin-top:150px}
 .agrofood-progress .four,.agrofood-progress .one,.agrofood-progress .three,.agrofood-progress .two{display:flex;width:300px}
@@ -103,7 +101,7 @@ h1{font-family:Storytella;font-size:200px;color:#fff;margin-top:200px;line-heigh
 .agro10{grid-area:agro10;background-image:url(../images/content/agro-grid-10.png);background-repeat:no-repeat}
 .agro11{grid-area:agro11;background-image:url(../images/content/agro-grid-11.png);background-repeat:no-repeat}
 .agro12{grid-area:agro12;background-image:url(../images/content/agro-grid-12.png);background-repeat:no-repeat}
-.agrofoodsays{display:flex;flex-direction:column;align-items:center;justify-content:center;background-image:url(../images/content/peoplesays1.png);background-repeat:no-repeat;height:714px}
+.agrofoodsays{display:flex;flex-direction:column;align-items:center;justify-content:center;background-image:url(../images/content/peoplesays1.webp);background-repeat:no-repeat;height:714px}
 .agrofoodsays p{font-family:RalewayBlack;font-size:40px;margin-top:150px;margin-bottom:25px;line-height:30px;text-transform:uppercase;color:#fff;align-items:center}
 .agrofoodsays span{font-family:RalewayThin;font-size:40px;line-height:30px;display:inline-block;text-transform:uppercase;color:#fff;margin-left:10px}
 .agrofoodsays .p2{font-size:18px;font-family:OpenSansLight;text-transform:none;align-items:center;margin-top:0;margin-bottom:65px;text-align:center;width:35%}
